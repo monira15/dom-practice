@@ -9,21 +9,56 @@
 <body>
     <header>
         <h1>we learn to my dom</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, laudantium neque! Cumque voluptatum voluptas quis quidem perferendis ad adipisci ipsa, porro saepe consequuntur odit eius, natus dolore eum magni esse!</p>
     </header>
     <main>
-        <h1>my awesome do</h1>
+       <section>
+         <h1 id="fruits-id">my awesome dom de babba</h1>
         <ul>
             <li>jalali set</li>
             <li>shafayet</li>
             <li>bonbash</li>
-        </ul>
+        </ul></section>
+
+        <section>
+             <h1 id="places-too">my awesome do gioph</h1>
+            <ul class="placese">
+                <li>apple</li>
+                <li>banana</li>
+                <li>carrot</li>
+                <li>dfhcjtk</li>
+                <li>fjhk,jlk</li>
+                <li>hjgjhljlk</li>
+            </ul></section>
+
+            <section>
+                <h1>placese i like to visited</h1>
+                <ul >
+                    <li class="places-important">sundarbon</li>
+                    <li  class="places-important">sundarbon</li>
+                    <li  class="places-important">sundarbon</li>
+                    <li>bandorban</li>
+                    <li>sajec</li>
+                    <li>rangamati</li>
+                    <li>cox-bazar</li>
+                </ul>
+            </section>
     </main>
     <script src="script.js"></script>
     <script>
-        const licollection=document.getElementsByTagName("li");
-        for(const li of licollection){
-            console.log(li.innerText)
-        }
+        // const licollection=document.getElementsByTagName("li");
+        // for(const li of licollection){
+        //     // console.log(li.innerText)
+        // }
+        // const places = document.getElementsByClassName(" places-important")
+        // for(const place  of places ){
+        // //     console.log(place.innerText)
+        // // }
+            const someli = document.querySelectorAll(".placese");
+            for(const li of someli){
+                console.log(li.innerText)
+                
+            }
     </script>
 </body>
 </html>
