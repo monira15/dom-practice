@@ -10,13 +10,18 @@
     <button onclick="console.log(2)">click me</button>
     <button onclick="console.log(29)">Another btn</button>
     <br>
+    <br>
     <button onclick="document.body.style.backgroundColor='yellow'">Make yellow</button>
     <button onclick="makeRed()">make red</button>
+    <button id="make-blue">Make Blue</button>
+    <button id="make-purple">Make purple</button>
     <script src="./js/event.js"></script>
     <script>
-        function makeRed(){
-            document.body.style.backgroundColor='red';
-        }
+       const purpleButton=document.getElementById('make-purple');
+      
+    purpleButton.onclick=function makePurple(){
+        document.body.style.backgroundColor='purple';
+    }
     </script>
 </body>
 </html>
