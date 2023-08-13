@@ -4,61 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>we learn to my dom</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, laudantium neque! Cumque voluptatum voluptas quis quidem perferendis ad adipisci ipsa, porro saepe consequuntur odit eius, natus dolore eum magni esse!</p>
-    </header>
-    <main>
-       <section>
-         <h1 id="fruits-id">my awesome dom de babba</h1>
-        <ul>
-            <li>jalali set</li>
-            <li>shafayet</li>
-            <li>bonbash</li>
-        </ul></section>
-
-        <section>
-             <h1 id="places-too">my awesome do gioph</h1>
-            <ul class="placese">
-                <li>apple</li>
-                <li>banana</li>
-                <li>carrot</li>
-                <li>dfhcjtk</li>
-                <li>fjhk,jlk</li>
-                <li>hjgjhljlk</li>
-            </ul></section>
-
-            <section>
-                <h1>placese i like to visited</h1>
-                <ul >
-                    <li class="places-important">sundarbon</li>
-                    <li  class="places-important">sundarbon</li>
-                    <li  class="places-important">sundarbon</li>
-                    <li>bandorban</li>
-                    <li>sajec</li>
-                    <li>rangamati</li>
-                    <li>cox-bazar</li>
-                </ul>
-            </section>
-    </main>
-    <script src="script.js"></script>
+    <h1 onclick="console.log('i am click')">DOM re fjdks</h1>
+    <button onclick="console.log(2)">click me</button>
+    <button onclick="console.log(29)">Another btn</button>
+    <br>
+    <button onclick="document.body.style.backgroundColor='yellow'">Make yellow</button>
+    <button onclick="makeRed()">make red</button>
+    <script src="./js/event.js"></script>
     <script>
-        // const licollection=document.getElementsByTagName("li");
-        // for(const li of licollection){
-        //     // console.log(li.innerText)
-        // }
-        // const places = document.getElementsByClassName(" places-important")
-        // for(const place  of places ){
-        // //     console.log(place.innerText)
-        // // }
-            const someli = document.querySelectorAll(".placese");
-            for(const li of someli){
-                console.log(li.innerText)
-                
-            }
+        function makeRed(){
+            document.body.style.backgroundColor='red';
+        }
     </script>
 </body>
 </html>
